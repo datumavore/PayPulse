@@ -646,33 +646,9 @@ main .cta-section {
     position: relative;
 }
 
-#cta-image-1 {
+#user-image {
+    margin: 0 var(--space-1) 0 0;
     height: 24px;
-    width: 24px;
-}
-
-#cta-image-2 {
-    position: absolute;
-    left: 16px;
-    z-index: 2;
-    height: 24px;
-    width: 24px;
-}
-
-#cta-image-3 {
-    position: absolute;
-    left: 32px;
-    z-index: 3;
-    height: 24px;
-    width: 24px;
-}
-
-#cta-image-4 {
-    position: absolute;
-    left: 48px;
-    z-index: 4;
-    height: 24px;
-    width: 24px;
 }
 
 .col-right > .button-primary {
@@ -1321,6 +1297,15 @@ footer .footer-content {
 
     .cta-section .col-right {
         max-width: 320px;
+    }
+
+    .cta-stats {
+        flex-direction: column;
+    }
+
+    #user-image {
+        margin: 0 0 var(--space-1) 0;
+        align-self: self-start;
     }
 
     .cta-section .col-right .lead-text {
